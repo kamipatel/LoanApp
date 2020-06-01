@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Loan__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Loan</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Upload Documents&lt;/p&gt;</info>
+        <picklistValueName>DocumentsUploaded</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;New loan. Make sure to pick type&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;All docs sent to third party&lt;/p&gt;</info>
+        <picklistValueName>SentToThirdPartyForVerification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

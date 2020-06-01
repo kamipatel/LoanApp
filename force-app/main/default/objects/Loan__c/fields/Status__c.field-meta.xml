@@ -21,6 +21,11 @@
                 <label>DocumentsUploaded</label>
             </value>
             <value>
+                <fullName>WaitingForThirdPartyForVerification</fullName>
+                <default>false</default>
+                <label>WaitingForThirdPartyForVerification</label>
+            </value>
+            <value>
                 <fullName>SentToThirdPartyForVerification</fullName>
                 <default>false</default>
                 <label>SentToThirdPartyForVerification</label>

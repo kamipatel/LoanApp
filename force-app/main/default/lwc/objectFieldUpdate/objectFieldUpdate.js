@@ -46,7 +46,7 @@ export default class ObjectFieldUpdate extends LightningElement {
             window.console.log('DocumentUploadStatus isEmpEnabled: ' + JSON.stringify(response));
         });
 
-        subscribe('/event/UploadDocumentResponse__e', -1, event => {
+        subscribe('/event/UploadDocumentNotification__e', -1, event => {
 
             window.console.log('On UploadDocumentResponse event: ' + JSON.stringify(event));
                 if (!(this.replayIds.has(event.data.event.replayId))) {
