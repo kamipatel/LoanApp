@@ -17,6 +17,8 @@ It also demonstrates use of existing features e.g.
     - Install Visual Studio Code
     - Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
 
+# Make sure  your DevHub is Summer'20
+
 2. If you haven't already done so, authorize your hub org and provide it with an alias (**myhuborg** in the command below):
 
     ```
@@ -67,4 +69,4 @@ It also demonstrates use of existing features e.g.
 - Upload documents and from Path mark status as 'DocumentsUploaded' stage complete
 - Simulate on DocumentUpload, Third party verification completion by creating an event, replace *** with salesforce loan record id
 sfdx force:data:record:create -s UploadDocumentResponse__e -v "recordId__c=***" -u loan
-- That should advance the stage to "SentToThirdPartyForVerification". Path, dynamic forms, dynamic 
+- That should advance the stage to "SentToThirdPartyForVerification". Path, dynamic forms, dynamic actions should refresh. Also Visualforce should get LMS message.
