@@ -9,7 +9,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Loan Processing</label>
     <navType>Standard</navType>
-    <tabs>standard-Account</tabs>
     <tabs>Loan__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Loan_Processing_UtilityBar</utilityBar>
