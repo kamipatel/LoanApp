@@ -78,6 +78,13 @@
         <itemInstances>
             <fieldInstance>
                 <fieldItem>Record.Interest_Rate__c</fieldItem>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Status__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>SentToThirdPartyForVerification</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -115,6 +122,76 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <name>Facet-dd6ce62a-0551-46a2-9d09-5fcd1f45bf9f</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>Facet-169e363a-e027-4f1d-914a-b925480e5f3e</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-dd6ce62a-0551-46a2-9d09-5fcd1f45bf9f</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-169e363a-e027-4f1d-914a-b925480e5f3e</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-b01760fb-4d98-4bb0-8f9b-5b296f4e4d56</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.CarVIN__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-2d868751-996b-4008-afb8-b0e03b917be0</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.CarMake__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-39eb5e04-7cba-4c03-b9e1-7304c60d46be</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-2d868751-996b-4008-afb8-b0e03b917be0</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-39eb5e04-7cba-4c03-b9e1-7304c60d46be</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-f2325cd8-46dd-4c1d-9ff9-d053b72d3462</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -137,6 +214,46 @@
                         <leftValue>{!Record.Status__c}</leftValue>
                         <operator>NE</operator>
                         <rightValue>WaitingForThirdPartyForVerification</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-b01760fb-4d98-4bb0-8f9b-5b296f4e4d56</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>House Loan</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Type__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>House</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-f2325cd8-46dd-4c1d-9ff9-d053b72d3462</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Car Loan</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Type__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Car</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
