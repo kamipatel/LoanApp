@@ -36,6 +36,8 @@ export default class ObjectFieldUpdate extends LightningElement {
     connectedCallback() {
         window.console.log('Starting DocumentUploadStatus Event Processing');
 
+        window.console.log("The URL of this page is: " + window.location.href);
+
         setDebugFlag(true);
 
         onError(error => {
