@@ -122,10 +122,20 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.PropertyAddress__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-dd6ce62a-0551-46a2-9d09-5fcd1f45bf9f</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Property_Value__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-169e363a-e027-4f1d-914a-b925480e5f3e</name>
         <type>Facet</type>
     </flexiPageRegions>
