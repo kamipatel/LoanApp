@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Prompt - Loan record</masterLabel>
+    <promptVersions>
+        <body>Prompt - Loan record</body>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>BottomCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>true</isPublished>
+        <masterLabel>Prompt - Loan record</masterLabel>
+        <publishedDate>2020-06-29</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2020-06-29</startDate>
+        <targetAppDeveloperName>Loan_Processing</targetAppDeveloperName>
+        <targetPageKey1>Loan__c</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Prompt - Loan record</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>
